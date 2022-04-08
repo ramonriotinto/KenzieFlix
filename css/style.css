@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&display=swap');
+html{
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+body{
+    width: 1000px;
+    height: 500px;
+    background-color: #191b1d;
+    border-radius: 10px;
+    margin-top: 80px;
+    text-align: center;
+}
+.cabeçalho{
+    display: flex;
+    justify-content:center;
+}
+.imagem-login{
+    width: 229px;
+    height: 68px;
+}
+.div-texto{
+    display: flex;
+    justify-content: center;
+}
+.titulo-principal{
+    width: 334px;
+    height: 42px;
+    color: white;
+    font-family: 'Shadows Into Light';
+}
+.corpolista{
+    display: flex;
+    justify-content: space-around;
+    padding: 10px 10px 0px 0px;
+}
+.lista{
+    list-style: none;
+}
+.imagem-lista{
+    width: 160px;
+    height: 160px;
+    transition: all 0.5s;
+    
+}
+.div-imagem2{
+    background-color:rgb(46, 45, 45);
+    border-radius: 10px;
+    height: 160px;
+    width: 160px;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border:1px solid transparent;
+}
+.div-imagem2:hover{
+    border-radius: 10px;
+    border:1px solid white;
+}
+.paragrafo-lista{
+    color: rgb(170, 169, 169);
+    text-align: center;
+    font-family: Amatic SC;
+    font-size: 21px;
+}
+.div-lista:hover{
+    cursor: pointer;
+}
+.div-lista:hover p{
+    color: white;
+}
+.div-lista:hover .imagem-lista{
+   transform: scale(1.2);
+}
+.button{
+    color: white;
+    background-color: black;
+    padding: 8px 5px 8px 5px;
+    font-size: 11px;
+    border-radius: 8px;
+    width: 130px;
+    border: 1px solid rgb(156, 156, 156);
+}
+.button:hover{
+    background-color: white;
+    color: rgb(82, 82, 82); 
+}
+.div-vector{
+    background-color:rgb(46, 45, 45);
+    border-radius: 10px;
+}
+.circulo{
+    height: 90px;
+    width: 90px;
+    border:3px solid grey;
+    border-radius: 100%;
+    background-color:rgb(46, 45, 45);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.vertical{
+    height: 33px;
+    width: 3px;
+    border:1px solid grey;
+    background-color:grey;
+}
+.horizontal{
+    height: 3px;
+    width: 33px;
+    border: grey 1px solid;
+    position: absolute;
+    background-color:grey;
+}
+.div-imagem2:hover .circulo{
+    border:3px solid white;
+}
+.div-imagem2:hover .vertical{
+    border: 1px solid white;
+    background-color: white;
+}
+.div-imagem2:hover .horizontal{
+    border: 1px solid white;
+    background-color:white ;
+}
